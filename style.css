@@ -143,7 +143,6 @@ nav .sign-in-btn {
 
 /* main pillar */
 #pillar {
-  height: 324px;
   margin-top: 80px;
 }
 
@@ -417,6 +416,11 @@ td {
   border-radius: 8px;
   font-size: 40px;
   font-weight: 700;
+}
+
+#donation .money-card:hover{
+  background-color:  rgb(198, 228, 214);
+  cursor: pointer;
 }
 
 #donation .input-container {
