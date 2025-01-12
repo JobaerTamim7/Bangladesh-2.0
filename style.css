@@ -137,6 +137,10 @@ nav .sign-in-btn {
   background: rgb(0, 106, 80);
 }
 
+#banner button:hover{
+  opacity: 0.8;
+}
+
 /* main pillar */
 #pillar {
   height: 324px;
@@ -206,6 +210,7 @@ nav .sign-in-btn {
 
 #future .card .description {
   opacity: 0.7;
+  cursor: pointer;
 }
 
 #future .card .btn {
@@ -217,6 +222,11 @@ nav .sign-in-btn {
   font-weight: 600;
   line-height: 19px;
   color: white;
+}
+
+#future .card .btn:hover{
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 #future .quote-container {
@@ -367,6 +377,11 @@ td {
   background-color: rgb(0, 106, 80);
 }
 
+#news .news-card .content button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 /* donation section */
 
 #donation {
@@ -385,6 +400,9 @@ td {
 #donation .subtitle {
   text-align: center;
   opacity: 0.7;
+  line-height: 24px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 #donation .card-container {
@@ -426,6 +444,11 @@ td {
   border: none;
   color: white;
   border-radius: 8px;
+}
+
+#donation button:hover{
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 /* subscribe newsletter section */
@@ -478,6 +501,11 @@ td {
   padding: 17px 34px;
   border-radius: 2px;
   border: none;
+}
+
+#subscribe-newsletter button:hover{
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 #subscribe-newsletter .security-msg {
