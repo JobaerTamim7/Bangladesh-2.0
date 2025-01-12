@@ -433,6 +433,7 @@ td {
 #subscribe-newsletter {
   margin-top: 80px;
   padding: 80px 100px;
+  margin-bottom: 80px;
 }
 
 #subscribe-newsletter .title {
@@ -484,4 +485,25 @@ td {
   font-weight: 400;
   text-align: center;
   opacity: 0.7;
+}
+
+/* footer part */
+
+footer{
+  text-align: center;
+}
+
+footer header {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+footer .social{
+  margin-top: 32px;
+}
+
+footer .social img{
+  margin-left: 24px;
 }
